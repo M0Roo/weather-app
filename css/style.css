@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box;
+}
+main{
+    padding: 40px 0;
+    background-image: url(../images/banner.png);
+    background-repeat: no-repeat;
+    background-color: #1e202b;
+
+  .card-group{
+    
+    .today{
+      color: white;
+      background-color: #323544;
+      
+      h2{
+        font-size: 90px;
+        font-weight: 700;
+      }
+      .top{
+        padding: 5px 20px;
+        color: #BFC1C8;
+        background-color: #2D303D;
+      }
+      .body{
+        padding: 5px 20px;
+      }
+
+    }
+    .tomorrow{
+      color: white;
+      background-color: #262936;
+      .top{
+        color: #BFC1C8;
+        padding: 5px 20px;
+        background-color: #222531;
+      }
+      .body{
+        padding: 5px 20px;
+      }
+    }
+
+  }
+
+
+    .sub-form {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px !important;
+        border-radius: 50px;
+        width: 100% !important;
+        background-color: #1e202b !important;
+        .input {
+            width: 80%;
+            background-color: transparent;
+            border: none;
+            color: white;
+            outline: none;
+        }
+        .sub {
+            background-color: #009ad8;
+            padding: 8px 25px;
+            border-radius: 50px;
+            border: none;
+            color: white;
+        }
+        }
+
+}
+.container {
+  width: 80% !important;
+}
+
+nav {
+  .nav-item {
+    .main {
+      border: 2px solid #009ad8;
+      padding: 0px 20px !important;
+      border-radius: 50px;
+      color: #009ad8 !important;
+    }
+    .sub {
+      padding: 0px 20px !important;
+      border-radius: 50px;
+      border: 2px solid transparent;
+      &:hover {
+        color: #009ad8 !important;
+        border: 2px solid #009ad8;
+      }
+    }
+  }
+}
+
+footer {
+    background-color: #262936 !important;
+    .sub-form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px !important;
+    border-radius: 50px;
+    width: 100% !important;
+    background-color: #1e202b !important;
+    .input {
+      width: 80%;
+      background-color: transparent;
+      border: none;
+      color: white;
+      outline: none;
+    }
+    .sub {
+      background-color: #009ad8;
+      padding: 8px 16px;
+      border-radius: 50px;
+      border: none;
+      color: white;
+    }
+    }
+
+    .icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    a {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-inline: 2px;
+      text-decoration: none;
+      width: 40px;
+      height: 40px;
+      background-color: #1e202b;
+      border-radius: 100%;
+      color: #009ad8;
+      
+      &:hover{
+        background-color: #009ad8;
+        color: white !important;
+      }
+    }
+    }
+    p{
+    
+    color: #BFC1C8;
+    }
+
+}
+
+
