@@ -19,7 +19,7 @@ function getWeather() {
 
     return new Promise(function () {
         let html = new XMLHttpRequest()
-        html.open("GET", `https://api.weatherapi.com/v1/forecast.json?key=86adbdbab8e546f6880194929241312&q=${lat},${lon}&days=3&aqi=no&alerts=yes`)
+        html.open("GET", `http://api.weatherapi.com/v1/forecast.json?key=86adbdbab8e546f6880194929241312&q=${lat},${lon}&days=3&aqi=no&alerts=yes`)
         html.send()
         html.addEventListener('load', function () {
             var obj = JSON.parse(html.response)
@@ -115,7 +115,7 @@ searchInp.addEventListener('input', function (e) {
     if (e.target.value.length >= 3) {
 
         let html = new XMLHttpRequest()
-        html.open("GET", `https://api.weatherapi.com/v1/forecast.json?key=86adbdbab8e546f6880194929241312&q=${e.target.value}&days=3&aqi=no&alerts=yes`)
+        html.open("GET", `http://api.weatherapi.com/v1/forecast.json?key=86adbdbab8e546f6880194929241312&q=${e.target.value}&days=3&aqi=no&alerts=yes`)
         html.send()
         html.addEventListener('readystatechange', function (){
             
